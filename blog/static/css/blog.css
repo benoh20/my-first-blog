@@ -2,24 +2,16 @@ h1 a, h2 a {
     color: #ffb4bf;
 }
 
-/* article {
-    padding-left: 30px;
-} */
-
-/* body {
-    padding-left: 30px;
-} */
-
 .page-header {
-    background-color: #000000;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    background-color: #C25100;
+    margin-top: 0;
+    margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1,
 .page-header h1 a,
-.page-header h1 a:visted,
+.page-header h1 a:visited,
 .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
@@ -30,31 +22,33 @@ h1,
 h2,
 h3,
 h4 {
-    
     font-family: 'Lobster', cursive;
 }
 
 .date {
     color: #828282;
-
 }
 
 .save {
     float: right;
 }
 
-.post-forum textarea,
-.post-forum input {
+.post-form textarea,
+.post-form input {
     width: 100%;
 }
 
-.top.menu,
+.top-menu,
 .top-menu:hover,
 .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
 }
 
 .post h2 a,
@@ -72,11 +66,10 @@ h4 {
     color: #C25100;
     background: none;
     border-color: #C25100;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .btn-secondary:hover {
-    color: #ffffff;
+    color: #FFFFFF;
     background-color: #C25100;
-    border-color: #C25100;
 }
